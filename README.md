@@ -35,9 +35,7 @@ pip install streamlit numpy scikit-learn
 ```
 
 ### 3. Run the Streamlit app
-```bash
-streamlit run app.py
-```
+https://vetriagilan-banknote-app-v47lvn.streamlit.app/
 
 Once started, Streamlit will open the app automatically in your browser  
 (default URL: http://localhost:8501)
