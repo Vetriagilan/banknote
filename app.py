@@ -1,16 +1,35 @@
 import streamlit as st
-import pickle
 import numpy as np
+import joblib
+import pickle
 from sklearn.base import BaseEstimator
 from sklearn.utils.validation import check_is_fitted
+from sklearn.exceptions import NotFittedError
 
-# Load model and scaler
-model = pickle.load(open('banknote_model.pkl', 'rb'))
-scaler = pickle.load(open('scaler.pkl', 'rb'))
 
-# Verify the loaded model is fitted
+# Helper to load with joblib first, then pickle as fallback
+def load_artifact(path):
+    try:
+        return joblib.load(path)
+    except Exception:
+        with open(path, 'rb') as f:
+            return pickle.load(f)
+
+
+# Load model and scaler (show clear error in the app if missing)
 try:
-    # This will raise an exception if the estimator is not fitted
+    model = load_artifact('banknote_model.pkl')
+except Exception as e:
+    st.error(f"Failed to load model artifact 'banknote_model.pkl': {e}")
+    st.stop()
+
+try:
+    scaler = load_artifact('scaler.pkl')
+except Exception:
+    scaler = None
+
+# Verify the loaded model is fitted (gives clearer guidance than raw AttributeError)
+try:
     check_is_fitted(model)
     model_is_fitted = True
 except Exception:

@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/vetriagilan/Desktop/end%20to%20end%202/mlruns/697550400773340347/models/m-5343c38d732d44df86d596f35cfaf49d/artifacts
+creation_timestamp: 1761559821044
+experiment_id: '697550400773340347'
+last_updated_timestamp: 1761559827548
+model_id: m-5343c38d732d44df86d596f35cfaf49d
+model_type: null
+name: banknote_model
+source_run_id: 7e19bc1319404a4f9c84f01db57dabcd
+status: 2
+status_message: null

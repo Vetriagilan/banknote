@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/vetriagilan/Desktop/end%20to%20end%202/mlruns/939642721211702072/models/m-f5ae97c47b38487fb418ac96fd56a114/artifacts
+creation_timestamp: 1761560081928
+experiment_id: '939642721211702072'
+last_updated_timestamp: 1761560085063
+model_id: m-f5ae97c47b38487fb418ac96fd56a114
+model_type: null
+name: model1
+source_run_id: 28d0867094ac4ba4bf93622b0ef32318
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/vetriagilan/Desktop/end%20to%20end%202/mlruns/939642721211702072/7bdbee37b2074d5495097683e84e0689/artifacts
+end_time: 1761560214930
+entry_point_name: ''
+experiment_id: '939642721211702072'
+lifecycle_stage: active
+run_id: 7bdbee37b2074d5495097683e84e0689
+run_name: nebulous-sheep-372
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761560208859
+status: 3
+tags: []
+user_id: vetriagilan

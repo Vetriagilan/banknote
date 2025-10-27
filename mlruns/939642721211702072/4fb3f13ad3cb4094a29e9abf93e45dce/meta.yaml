@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/vetriagilan/Desktop/end%20to%20end%202/mlruns/939642721211702072/4fb3f13ad3cb4094a29e9abf93e45dce/artifacts
+end_time: 1761559946193
+entry_point_name: ''
+experiment_id: '939642721211702072'
+lifecycle_stage: active
+run_id: 4fb3f13ad3cb4094a29e9abf93e45dce
+run_name: sincere-shoat-58
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761559939901
+status: 3
+tags: []
+user_id: vetriagilan

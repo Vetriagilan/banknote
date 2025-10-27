@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/vetriagilan/Desktop/end%20to%20end%202/mlruns/939642721211702072/28d0867094ac4ba4bf93622b0ef32318/artifacts
+end_time: 1761560088157
+entry_point_name: ''
+experiment_id: '939642721211702072'
+lifecycle_stage: active
+run_id: 28d0867094ac4ba4bf93622b0ef32318
+run_name: youthful-carp-90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761560081703
+status: 3
+tags: []
+user_id: vetriagilan

@@ -1,0 +1,22 @@
+artifact_path: file:///c:/Users/vetriagilan/Desktop/end%20to%20end%202/mlruns/697550400773340347/models/m-5220f3ced2c245dd97fc3090cf15b8ab/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.5.1
+model_id: m-5220f3ced2c245dd97fc3090cf15b8ab
+model_size_bytes: 5960
+model_uuid: m-5220f3ced2c245dd97fc3090cf15b8ab
+prompts: null
+run_id: 83485bb0f12b4e51bd2c6e7e8c62e8fb
+utc_time_created: '2025-10-27 04:29:27.236017'

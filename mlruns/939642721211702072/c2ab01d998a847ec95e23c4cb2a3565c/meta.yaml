@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/vetriagilan/Desktop/end%20to%20end%202/mlruns/939642721211702072/c2ab01d998a847ec95e23c4cb2a3565c/artifacts
+end_time: 1761560314756
+entry_point_name: ''
+experiment_id: '939642721211702072'
+lifecycle_stage: active
+run_id: c2ab01d998a847ec95e23c4cb2a3565c
+run_name: rumbling-deer-561
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761560308799
+status: 3
+tags: []
+user_id: vetriagilan

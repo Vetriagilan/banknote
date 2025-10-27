@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/vetriagilan/Desktop/end%20to%20end%202/mlruns/697550400773340347/models/m-b9fe2c962ccb49cbb98d605061d0682d/artifacts
+creation_timestamp: 1761539371352
+experiment_id: '697550400773340347'
+last_updated_timestamp: 1761539374765
+model_id: m-b9fe2c962ccb49cbb98d605061d0682d
+model_type: null
+name: scaler
+source_run_id: 5a1a5c0ce1e244e8a109f7dd560bc2d9
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_path: file:///c:/Users/vetriagilan/Desktop/end%20to%20end%202/mlruns/697550400773340347/models/m-08341323bf7149ec94ccc7327221631d/artifacts
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.5.1
+model_id: m-08341323bf7149ec94ccc7327221631d
+model_size_bytes: 676
+model_uuid: m-08341323bf7149ec94ccc7327221631d
+prompts: null
+run_id: 83485bb0f12b4e51bd2c6e7e8c62e8fb
+utc_time_created: '2025-10-27 04:29:32.361979'
